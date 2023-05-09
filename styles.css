@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #1F2937;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li {
+    list-style-type: none;
+}
+
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.nav_title {
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.nav_links li{
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0px 15px;
+}
