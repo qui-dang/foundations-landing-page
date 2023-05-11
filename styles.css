@@ -66,15 +66,37 @@ li {
     margin-left: 200px;
 }
 
+
 .container_left h1 {
-    font-size: 52px; 
+    font-size: 60px; 
     color: #E5E7EB;
+    margin: 0 auto;
 }
 
 .container_left p {
     font-size: 18px;
     color: #F9FAF8;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px 0;
 }
+
+.container_button {
+    width: 100%;
+}
+
+.button {
+    width: 100%;
+    max-width: 100px;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: #3882F6;
+}
+
+
 
 .container_right {
     display: flex;
@@ -83,6 +105,7 @@ li {
     margin-right: 200px;
     width: 50%;
 }
+
 
 .corgi {
     width: 100%;
